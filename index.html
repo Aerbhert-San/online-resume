@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Resume</title>
+    <style>
+
+        /*image ko pic graduation*/
+        img{ width:20vw;
+        height: 28vh;}
+        .image{
+            display:block; float:left; margin-left:14vh; margin-top:3.8vh; border-radius:50vh; width:25vh;height:25vh;}
+          /*background na grey*/
+        .container{width:32vw; height:100vh ;float:left; background-color:rgba(128,128,128,.3);}
+        /*contact and skill*/
+            .skills-contacts{font-size:3.2vh;position:absolute;top:32%;left:4%; font-family: Arial; font-weight: bold;}
+            /*contact contnt*/
+            .cont{font-size: 2vh;}
+        .email1{position:absolute;top:43%;left:10%;}
+        .number1{position:absolute;top:48%;left:10%;}
+        .address1{position:absolute;top:53%;left:10%;}
+        /*heading name ko*/
+        h1{font-size:3.2vh; text-align:20vh; padding-top: 5vh; padding-left:55vw; font-family: Arial; font-weight: bold;}
+        /*horizontal line*/
+        .horizontal{border-bottom: .5vh solid grey;width:5vh;position:absolute;top:12%;left:61.1%;width:20vh;}
+        /*skills contentent*/
+        .skills{font-size: 2vh;position:absolute;left:10%;}
+        .css1{top:69%}
+        .html1{top:74%}
+        .py1{top:79%}
+        .java1{top:84%}
+
+        /*this is in white rgion*/
+        /*objective edu exp*/
+        .new-line{width:50%;margin:0 auto;}
+        .oeu{font-size: 2vh;position:absolute;top:26%;left:50%;}
+        .list-font{font-size: 2vh;position:absolute;}
+        /*skill heading*/
+        .skill1{top:60%;}
+
+            /*heading sa white area*/
+            .ob1{top:15%;left:40%}
+            .edu1{top:27%;left:40%}
+            .experince1{top:87%;left:40%}
+
+            /*education left and top ,line for education*/
+            .line-ed{list-style-type: disc;}
+            .left-edu{left:65%;}
+            /*remove circle in list edu*/
+            .no-disc-ed{list-style-type:none;}
+            /*list*/
+           
+            .list1{font-family: Arial Black;}
+                .list1-1{top:43%;left:45%;}
+                .list1-2{top:53%;left:45%;}
+                .list1-3{top:63%;left:45%;}
+                .list1-4{top:73%;left:45%;}
+
+            .list2{font-family: Arial Black;}
+                .list2-1{top:43%;left:65%;}
+                .list2-2{top:53%;left:65%;}
+                .list2-3{top:63%;left:65%;}
+                .list2-4{top:73%;left:65%;}
+
+            .list{left:67%;font-family: Arial Black;}
+                .list3-1{top:47%;left:67%;}
+                .list3-2{top:57%;left:67%;}
+                .list3-3{top:67%;left:67%;}
+                .list3-4{top:77%;left:67%;}
+            .vertical-line1{position:absolute;width:.1vh;height:37vh;top:44.15%;left:63.96%;background-color: black;}
+            /*it*/
+            .it{color: Blue; font-size:2.8vh; padding-left:62vw; font-family: Arial;color:grey;}
+            /*all logo*/
+            /*logomail*/
+            .logo-mail{position:absolute;top:41.5%;left:5%;width:4vh;height:4vh;}
+            .logo-phone{position:absolute;top:46.5%;left:5%;width:3vh;height:4vh;}
+            .logo-location{position:absolute;top:51.5%;left:5%;width:3vh;height:4vh;}
+
+        /*exp*/
+           
+           .cu2{font-size: 2vh;position:absolute;top:93%;left:50%}
+
+
+
+
+
+
+    /*mobile*/
+    @media(max-width:601px){
+        /*pic ko grad*/
+        .image{
+            display:block; float:left; margin-left:220px; margin-top:40px; border-radius:50px; width:100px;height:100px;text-align: center;}img{
+        width:100px;
+        height: 100px;
+            }
+        /*bg*/
+        .container{width:5px; height:1000px ;float:left; background-color:rgba(128,128,128,.3);}
+
+        /*all heading size*/
+        .skills-contacts{font-size:25px;position:absolute;top:400px;left:8%; font-family: Arial; font-weight: bold;}
+       
+       
+
+        /*contact content*/
+        .cont{font-size:20px;}
+        .email1{position:absolute;top:480px;left:25%;}
+        .number1{position:absolute;top:530px;left:25%;}
+        .address1{position:absolute;top:570px;left:25%;}
+          /*logo*/
+          .logo-mail{position:absolute;top:485px;left:18%;width:20px;height:20px;}
+          .logo-phone{position:absolute;top:530px;left:18%;width:20px;height:20px;}
+        .logo-location{position:absolute;top:570px;left:18%;width:20px;height:20px;}
+
+          /*skills heading*/
+          .skill1{top:650px;}
+          .skills{font-size: 20px;position:absolute;top:730px;left:25%;}
+        /*heading name ko*/
+        h1{font-size:30px; text-align:50px; padding-top: 200px;font-family: Arial; font-weight: bold;padding-left: 15%;}
+        .it{color: Blue; font-size:23px; padding-left:33.33%; font-family: Arial;color:grey;}
+        .horizontal{border-bottom: .12px solid grey;position:absolute;top:265px;left:32%;width:150px;}
+
+        
+        /*skills content*/
+        .skills{font-size: 20px;position:absolute;left:25%;}
+        .css1{top:730px}
+        .html1{top:770px}
+        .py1{top:810px}
+        .java1{top:850px}
+
+        
+         /*heading objective */
+         .ob1{top:930px;left:8%}
+            /*objective*/
+        
+        .new-line{width:50%;margin:0 auto;}
+
+
+            /*education*/
+        .edu1{top:1120px;left:8%}
+          /*remove circle in list edu*/
+        .no-disc-ed{list-style-type:none;}
+        .line-ed{list-style-type: disc;}
+            /*list*/
+        .list-font{font-size: 20px; font-family: Calibri; font-weight: bold;}
+        
+            .list1-1{top:1240px;left:25%;}
+            .list1-2{top:1440px;left:25%;}
+            .list1-3{top:1640px;left:25%;}
+            .list1-4{top:1840px;left:25%;}
+
+
+       
+            .list2-1{top:1290px;left:28%;}
+            .list2-2{top:1490px;left:28%;}
+            .list2-3{top:1690px;left:28%;}
+            .list2-4{top:1890px;left:28%;}
+
+            
+            .list3-1{top:1340px;left:32%;}
+            .list3-2{top:1540px;left:32%;}
+            .list3-3{top:1740px;left:32%;}
+            .list3-4{top:1940px;left:32%;}
+
+       
+/*education left and top ,line for education*/
+            
+             .vertical-line1{position:absolute;width:3px;height:750px;top:1230px;left:23.5%;background-color: black;}
+          
+
+            /*expeerience*/
+            .experince1{top:2040px;left:8%}
+            .cu2{font-size:20px;top:2090px; position:absolute;left:25%}
+
+
+            .oeu{font-size: 20px;position:absolute;top:1010px;left:25%}
+
+             
+
+        }
+            
+      
+    </style>
+</head>
+<body>
+   <div class="container">
+    <!--picture ko-->
+    <img src="pics.jpg" alt="Aerbhert" class="image">
+    <!--   contact   -->
+    <h4 class="skills-contacts">CONTACTS</h4>
+
+    <!-- all logo email contact address-->
+    <img src="email-logo-png-19.png" alt="email" class="logo-mail">
+    <img src="phone.png" alt="email" class="logo-phone">
+    <img src="png-location--872.png" alt="email" class="logo-location">
+
+    <!---contacts content-->
+  
+    <div  class="cont">
+    <a class="email1" href="http://saj323358@gmail.com/">saj323358@gmail.com</a>
+    <p1 class="number1">0961-476-4364</p1>
+    <p2 class="address1">Purok Maulawin, Isabang L.C.</p2>
+    </div>
+
+
+    <!--  Skills    -->
+  
+    <h3 class="skills-contacts skill1" >SKILL</h3>
+    <!--skills ko -->
+   
+    <p3 class="skills css1">CSS </p3>
+    <p4 class="skills html1">HTML</p4>
+    <p5 class="skills py1" >Python</p5>
+    <p6 class="skills java1" >Javascripth</p6>
+   
+</div>
+<!--name ko-->
+    <h1>Aerbhert John M. Sanchez</h1>
+    <div class="horizontal"></div>
+    <h2 class="it">IT Student</h2>
+
+    
+    <!--heading again-->
+    <h5 class="skills-contacts ob1" >OBJECTIVE</h5>
+    <h6 class="skills-contacts edu1">EDUCATION</h6>
+    <h7 class="skills-contacts experince1" >EXPERIENCE</h7>
+    
+    <!--objective content-->
+    <p7 class="oeu new-line">To apply my programming knowledge and skills in real life setting,
+         while gaining valuable experience and contributing to the world.</p7>
+
+    <!--Education content-->
+    
+
+    <ul class="list1">
+        <li class="list-font no-disc-ed list1-1 ">Elementary</li>
+        <li class="list-font no-disc-ed list1-2 " >Junior High School</li>
+        <li class="list-font no-disc-ed list1-3 ">Senior High School</li>
+        <li class="list-font no-disc-ed list1-4 ">College</li>
+    </ul>
+    
+   
+
+    <ul  class="list2">
+        <li class="line-ed list-font left-edu list2-1" >Isabang Elementary School</li>
+        <li class="line-ed list-font left-edu list2-2" >Quezon National High School</li>
+        <li class="line-ed list-font left-edu list2-3"  >Quezon National High School</li>
+        <li class="line-ed list-font left-edu list2-4" >Dalubhasaan ng Lungsod ng Lucena</li>
+    </ul>
+    <ul clss="list3">
+        <li class="no-disc-ed list-font left-edu list3-1" >2009-2015</li>
+        <li class="no-disc-ed list-font left-edu list3-2" >2015-2019</li>
+        <li class="no-disc-ed list-font left-edu list3-3" >2019-2021</li>
+        <li class="no-disc-ed list-font left-edu list3-4" >2022-ongoing</li>
+    </ul>
+    
+    <!--line in edu-->
+    <div class="vertical-line1"></div>
+
+    <!--exp content-->
+    
+    <p8 class="cu2">Currently Studying</p8>
+</body>
+</html>
